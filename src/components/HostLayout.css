@@ -1,0 +1,12 @@
+.host__link {
+    display: flex;
+    justify-content: space-around;
+    background: #ffe8d6;
+    font-family: "poppins";
+}
+
+.host__link a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}

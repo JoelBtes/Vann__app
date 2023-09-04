@@ -1,0 +1,23 @@
+.hostVans__single {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #fff;
+    border-radius: 25px;
+    color: black;
+}
+
+.hostVans__single img {
+    width: 100px;
+    margin-right: 1.5rem;
+    border-radius: 5px;
+}
+
+.hostVans__title{
+    padding: 2rem;
+}
+
+body {
+    background-color: #ffe8d6;;
+}

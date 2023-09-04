@@ -1,0 +1,91 @@
+/* VanDetail Page Styles */
+.van-detail-container {
+    padding: 4rem;
+    text-align: center;
+    background-color: #ffe8d6; /* Set the background color for the whole page */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    min-height: 100vh; /* Ensure the content occupies the full viewport height */
+    font-family: poppins;
+}
+
+.van__detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #ffe8d6; /* Add background color to the detail section */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Limit the width for better readability */
+}
+
+.van__detail img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.van__type {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.van__detail h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.van__price {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.van__price-price {
+    font-weight: bold;
+}
+
+.van__detail p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    width: 500px;
+}
+
+.link__button {
+    background-color: #ff6600; /* Set orange background color */
+    color: white;
+    border: none;
+    padding: 1rem 13rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.link__button:hover {
+    background-color: #cc5500; /* Darken the background color on hover */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .van__detail {
+        width: 100%;
+    }
+
+    .van__detail p {
+        width: 80%;
+    }
+    .link__button {
+        padding: 1rem 9rem;
+    }
+}

@@ -1,0 +1,44 @@
+
+.host-van-detail-info {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .host-van-detail-info h4 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #161616;
+  }
+  
+  .host-van-detail-info h4 span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+ 
+  @media screen and (max-width: 480px) {
+    .host-van-detail-info {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    .host-van-detail-info h4 {
+      font-size: 16px;
+    }
+  }
+  
+
+  @media screen and (min-width: 1024px) {
+    .host-van-detail-info {
+      margin: 40px;
+      padding: 30px;
+    }
+  
+    .host-van-detail-info h4 {
+      font-size: 20px;
+    }
+  }
+  

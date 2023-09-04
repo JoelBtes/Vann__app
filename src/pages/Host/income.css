@@ -1,0 +1,37 @@
+.host__income{
+    padding: 2rem;
+    text-align: center;
+}
+
+.transaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;;
+    margin: 2rem auto;
+}
+
+.host__dashboard-reviews{
+    background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+}
+
+.host__dashboard-reviews a {
+    margin-left: auto;
+}
+
+.host__dashboard-reviews h2, .star, .host__dashboard-reviews p {
+    margin-right: 10px;
+}
+
+.star {
+    color: orangered
+}
+.top {
+    display: inline;
+}
+

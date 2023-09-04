@@ -1,0 +1,143 @@
+.van__list-container {
+    padding: 5rem;
+    text-align: center;
+    background-color: #ffe8d6;
+    font-family: poppins;
+}
+
+.van__title img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.van__info {
+    margin-top: 1rem; 
+}
+
+.van-type {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.van__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.van__list-container h1 {
+    padding: 5rem;
+    text-align: left;
+}
+
+
+
+.van__title i {
+    display: inline-block;
+    font-size: 0.8rem;
+    background-color: orange;
+    color: white;
+    padding: 0.2rem 3rem;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-bottom: 2rem;
+}
+
+.van__list-filter-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.5rem;
+    margin-top: -7rem;
+}
+.van__list-filter-buttons .links {
+    text-decoration: none;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background: orange;
+    color: #fff;
+    padding: 0.3rem 2rem;
+    font-size: smaller;
+}
+.links__clearfilter{
+    margin-left: 4rem;
+}
+.van__list-filter-buttons .links:hover {
+    border: 1px solid orange;
+    background: white;
+    color: orange;
+}
+
+.vans__link {
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    .van__list {
+        grid-template-columns: 1fr; 
+    }
+
+    .van__list-container {
+        padding: 2rem;
+    }
+
+    .van__list-container h1 {
+        margin-bottom: -2rem;
+    }
+
+    .van__list-filter-buttons{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+
+    .links__clearfilter {
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .van__list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem; 
+    }
+    .van__list-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+    .van__list-container h1 {
+        margin: 0;
+        margin-bottom: 2rem; 
+        text-align: center;
+    }
+    .van__title {
+        padding: 2rem;
+        text-align: center; 
+    }
+    .van__list-filter-buttons {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 1rem; 
+        margin-top: 2rem; 
+    }
+    .van__list-filter-buttons .links {
+        text-decoration: none;
+        border-radius: 5px;
+        background: orange;
+        color: #fff;
+        padding: 0.3rem 2rem;
+        font-size: smaller;
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    }
+    .van__list-filter-buttons .links:hover {
+        background: white;
+        color: orange;
+        border: 1px solid orange;
+    }
+    .links__clearfilter {
+        margin-left: auto;
+    }
+}

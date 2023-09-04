@@ -1,0 +1,22 @@
+.login__link img {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+
+@media (max-width: 599px) {
+    .login__link img {
+        display: block;
+        margin: 10px auto; 
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .login__link img {
+        border-radius: 50%;
+        margin-left: 20px;
+        vertical-align: middle; 
+    }
+}
